@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Raleway:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+ul li .specialNavBarItem {
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+ul li .specialNavBarItem:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.buttonLink {
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all .3s;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.buttonLink:hover {
+    color: #fff;
+    background-color: black;
+}
+
+.bodySection {
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 75px;
+}
+
+/* Header */
+
+header {
+    padding: 20px;
+    height: 100vmin;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 76px;
+    align-items: center;
+}
+
+.navBarItem {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.navBarItem a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    transition: all .3s;
+}
+
+.navBarItem::after {
+    content: '';
+    height: 5px;
+    width: 0;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: all 0.5s;
+}
+
+.navBarItem::after:hover {
+    width: 100%;
+}
+
+.navBarItem a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#landingPageContent {
+    margin-top: 10%;
+    margin-left: 75px;
+}
+
+#landingPageContent .subTitle {
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+#landingPageContent .credits {
+    margin-top: 20px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/* Main */
+
+main h3 {
+    margin-bottom: 20px;
+}
+
+.bodySection p {
+    margin: auto;
+    width: 50%;
+}
+
+#moreOnDrones .cardContainer {
+    margin-top: 25px;
+}
+
+#moreOnDrones .cardContainer .card {
+    flex-basis: 30%;
+    margin: 0 30px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+#moreOnDrones .cardContainer .card p {
+    width: 80%;
+    margin: auto;
+}
+
+#moreOnDrones .cardContainer .card a {
+    margin-top: 20px;
+}
+
+#moreOnDrones .cardContainer .card .image img {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#moreOnDrones .cardContainer .card .description {
+    margin: 10px 0;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contactMe p {
+    display: inline-block;
+    width: 40%;
+    margin-top: 10px;
+}
+
+#contactMe .footerNavBar {
+    background-color: rgb(20, 20, 20);
+    margin-top: 75px;
+    padding: 100px 0;
+}
+
+#contactMe .footerNavBar a {
+    color: rgb(255, 255, 255);
+}
+
+/* Media Queries */
+
+@media(min-width:900px) {    
+    #moreOnDrones .cardContainer {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:900px) {
+    header {
+        height: 100vh;
+    }
+    
+    #navBar {
+        display: block;
+        margin: 50px;
+        text-align: center;
+    }
+    #navBar .logo {
+        margin-bottom: 20px;
+    }
+    .navBarItem {
+        display: inline;
+        margin: 0 15px;
+    }
+    .specialNavBarItem {
+        display: inline-block;
+        margin-top: 20px;
+    }
+    
+    #landingPageContent {
+        text-align: center;
+        margin:  30px 0;
+    }
+
+    .bg {
+        object-fit: cover;
+    }
+    
+    .bodySection p {
+        width: 75%;
+    }
+    
+    #moreOnDrones .cardContainer {
+        margin: 50px;
+    }
+    #moreOnDrones .cardContainer .card {
+        margin-top: 50px;
+    }
+}
