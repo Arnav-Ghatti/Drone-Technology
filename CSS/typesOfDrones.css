@@ -129,6 +129,11 @@ main .section {
     margin: 100px 0;
 }
 
+.image {
+    max-width: 500px;
+    margin-top: 20px;
+}
+
 /* Footer */
 
 footer {

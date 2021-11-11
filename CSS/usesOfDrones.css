@@ -115,7 +115,7 @@ header #landingPageContent .subTitle {
 
 main {
     text-align: center;
-    width: 75%;
+    width: 50%;
     margin: 50px auto;
 }
 
@@ -127,6 +127,11 @@ main p {
 
 main .section {
     margin: 100px 0;
+}
+
+.image {
+    max-width: 500px;
+    margin-top: 20px;
 }
 
 /* Footer */

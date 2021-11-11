@@ -115,23 +115,21 @@ header #landingPageContent .subTitle {
 
 main {
     text-align: center;
-    width: 75%;
-    margin: 50px auto;
 }
 
-main p {
-    text-align: justify;
-    line-height: 1.5;
-    margin-top: 20px;
+.question {
+    margin-top: 30px;
 }
 
-.section {
-    margin: 100px 0;
+.option {
+    display: block;
+    margin: 25px auto;
+    padding: 15px 15px;
+    width: 35%;
 }
 
-.image {
-    max-width: 500px;
-    margin-top: 20px;
+#score {
+    margin: 25px 0;
 }
 
 /* Footer */

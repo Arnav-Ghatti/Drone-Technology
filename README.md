@@ -7,4 +7,4 @@ _- Arnav Ghatti & Neil Nirbhay Suri_
 
 _Mount St. Mary's School_
 
-_Class 8_
+_Class 8 & 7_

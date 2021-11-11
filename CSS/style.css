@@ -140,33 +140,33 @@ main h3 {
     width: 50%;
 }
 
-#moreOnDrones .cardContainer {
-    margin-top: 25px;
+.cardContainer {
+    margin: 25px 50px 0;
 }
 
-#moreOnDrones .cardContainer .card {
+.cardContainer .card {
     flex-basis: 30%;
     margin: 0 30px;
     border-radius: 10px;
     padding-bottom: 20px;
 }
 
-#moreOnDrones .cardContainer .card p {
+.cardContainer .card p {
     width: 80%;
     margin: auto;
 }
 
-#moreOnDrones .cardContainer .card a {
+.cardContainer .card a {
     margin-top: 20px;
 }
 
-#moreOnDrones .cardContainer .card .image img {
+.cardContainer .card .image img {
     width: 100%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 
-#moreOnDrones .cardContainer .card .description {
+.cardContainer .card .description {
     margin: 10px 0;
 }
 
@@ -196,7 +196,7 @@ footer {
 /* Media Queries */
 
 @media(min-width:900px) {    
-    #moreOnDrones .cardContainer {
+    .cardContainer {
         display: flex;
         justify-content: center;
     }
@@ -237,10 +237,10 @@ footer {
         width: 75%;
     }
     
-    #moreOnDrones .cardContainer {
+    .cardContainer {
         margin: 50px;
     }
-    #moreOnDrones .cardContainer .card {
+    .cardContainer .card {
         margin-top: 50px;
     }
 }
