@@ -79,6 +79,7 @@ header {
     justify-content: space-between;
     margin: 50px 76px;
     align-items: center;
+    position: sticky;
 }
 
 .navBarItem {
@@ -91,21 +92,6 @@ header {
     text-decoration: none;
     color: rgb(71, 71, 71);
     transition: all .3s;
-}
-
-.navBarItem::after {
-    content: '';
-    height: 5px;
-    width: 0;
-    background-color: black;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: all 0.5s;
-}
-
-.navBarItem::after:hover {
-    width: 100%;
 }
 
 .navBarItem a:hover {
