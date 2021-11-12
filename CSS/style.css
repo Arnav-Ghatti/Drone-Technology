@@ -107,10 +107,14 @@ header {
     margin-left: 75px;
 }
 
-#landingPageContent .subTitle {
+#landingPageContent .subTitle span {
     font-size: 1.6rem;
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
+}
+
+.txt-type > .txt {
+    border-right: 2px solid rgb(26, 26, 26);
 }
 
 #landingPageContent .credits {
@@ -137,8 +141,9 @@ main h3 {
 .cardContainer .card {
     flex-basis: 30%;
     margin: 0 30px;
-    border-radius: 10px;
+    border-radius: 30px;
     padding-bottom: 20px;
+    box-shadow: 0px 0px 15px #00000050;
 }
 
 .cardContainer .card p {
@@ -171,6 +176,41 @@ footer {
     display: inline-block;
     width: 40%;
     margin-top: 10px;
+}
+
+.feedbackbox {
+    margin: 0 auto;
+    margin-top: 75px;
+    width: 50%;
+    box-shadow: 0px 0px 10px #00000080;
+    background: #fff;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.emoji{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+.emoji img{
+    width: 82px;
+    margin: 10px 9px;
+}
+#emoji{
+    display: flex;
+    align-items: center;
+    transform:translateX(-400px);
+    transition: 0.3s;
+}
+.rating .fas{
+    font-size: 2rem;
+    color:#e4e4e4;
+    cursor: pointer;
 }
 
 #contactMe .footerNavBar {
@@ -232,5 +272,9 @@ footer {
     }
     .cardContainer .card {
         margin-top: 50px;
+    }
+
+    .feedbackbox h3 {
+        width: 100%;
     }
 }
