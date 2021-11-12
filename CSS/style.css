@@ -77,9 +77,13 @@ header {
 #navBar {
     display: flex;
     justify-content: space-between;
-    margin: 50px 76px;
+    margin: 20px 76px;
     align-items: center;
     position: sticky;
+}
+
+.logo {
+    max-width: 100px;
 }
 
 .navBarItem {
@@ -195,7 +199,7 @@ footer {
     
     #navBar {
         display: block;
-        margin: 50px;
+        margin: 20px 50px;
         text-align: center;
     }
     #navBar .logo {
