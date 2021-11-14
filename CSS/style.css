@@ -232,7 +232,7 @@ footer {
     }
 }
 
-@media(max-width:900px) {
+@media(max-width:1000px) {
     header {
         height: 100vh;
     }
@@ -269,6 +269,7 @@ footer {
     
     .cardContainer {
         margin: 50px;
+        display: block;
     }
     .cardContainer .card {
         margin-top: 50px;
@@ -276,5 +277,11 @@ footer {
 
     .feedbackbox h3 {
         width: 100%;
+    }
+}
+
+@media(max-width:1200px) {
+    .cardContainer {
+        display: block;
     }
 }

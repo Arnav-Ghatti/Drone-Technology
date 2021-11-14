@@ -118,7 +118,9 @@ main {
 }
 
 .question {
-    margin-top: 30px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 .option {
@@ -163,7 +165,7 @@ footer {
     }
 }
 
-@media(max-width:900px) {
+@media(max-width:1000px) {
     header {
         height: 100vh;
     }
