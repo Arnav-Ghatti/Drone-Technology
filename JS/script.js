@@ -1,4 +1,4 @@
-var score = 0;
+let score = 0;
 const answers = ["option31", "option22", "option43", "option24", "option15"]
 const quesDone = [false, false, false, false, false]
 
